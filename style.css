@@ -1,0 +1,106 @@
+body {
+  background-color: #8b8ad8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 3px;
+  font-family: Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  margin: 100px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.form {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  flex: 1;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 0px solid #000000;
+  left: 0%;
+  position: relative;
+  border-radius: 1px;
+  font-size: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.optionsRepo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.repoList {
+  background: #8b8ad8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 3px;
+
+  list-style: none;
+  box-shadow: 0 10 20px rgba(0, 0, 0, 0.16);
+  margin: 10px;
+  padding: 10px;
+}
+
+.optionsRepo li {
+  background: white;
+  list-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  /* margin: 0px; */
+  padding: 8px;
+  /* text-transform: capitalize; */
+}
+
+.repoList li {
+  background: #e8e8ff;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.cardClose {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c7cfff;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.cardClose:hover {
+  background-color: #b7c2ff;
+  color: #000000;
+}
+
+.repoElement:hover {
+  background-color: #f0f2ff;
+  cursor: pointer;
+}
